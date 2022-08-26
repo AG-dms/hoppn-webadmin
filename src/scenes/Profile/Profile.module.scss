@@ -1,0 +1,136 @@
+@import '../../styles/variables';
+.profileInfo {
+  width: 600px;
+  // border: 3px solid $hoppnOrange;
+  // border-radius: 5px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+.input_wrapper {
+  height: 90px;
+  display: flex;
+}
+
+.nameInfo {
+  margin: 0 auto;
+  padding: 10px;
+  width: 400px;
+}
+
+.photo_container {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.photo_container:hover {
+  box-shadow: 1px 1px 10px #f15b29b0;
+}
+
+.passwordInfo {
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  width: 400px;
+}
+.title {
+  text-align: center;
+}
+
+.profile_container {
+  // display: flex;
+  height: inherit;
+  // flex-direction: column;
+  overflow: auto;
+  width: inherit;
+  // justify-content: space-evenly;
+}
+
+.profile_container_vendor {
+  display: flex;
+  height: inherit;
+  overflow: auto;
+  width: inherit;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.user_info {
+  padding-top: 40px;
+  padding-left: 20px;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.users_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  &_item {
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  &_item_span {
+    font-weight: 300;
+  }
+}
+
+.buttons {
+  & div:first-child {
+    margin: 15px 0;
+  }
+}
+
+.avatar {
+  // border: 2px solid $pearlAqua;
+  // border-radius: 50px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.names {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.roles {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.accept_block {
+  margin-left: 20px;
+}
+
+.content_block {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.invite_container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete_btn {
+  position: absolute;
+  top: 5px;
+  right: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  & > button {
+    color: #e94b2d;
+  }
+  > button:hover {
+    background-color: #e94c2d17;
+  }
+}

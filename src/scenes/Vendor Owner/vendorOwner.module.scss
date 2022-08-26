@@ -1,0 +1,16 @@
+.vendor_info_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.vendor_info_container {
+  display: flex;
+  flex-direction: column;
+}
+.single_employee_container {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  width: inherit;
+  position: relative;
+}

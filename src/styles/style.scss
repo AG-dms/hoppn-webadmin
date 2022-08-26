@@ -1,0 +1,138 @@
+@import './variables.scss';
+
+/* montserrat-300 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/montserrat-v21-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''), url('../fonts/montserrat-v21-latin-300.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/montserrat-v21-latin-300.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/montserrat-v21-latin-300.woff') format('woff'),
+    /* Modern Browsers */ url('../fonts/montserrat-v21-latin-300.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/montserrat-v21-latin-300.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/montserrat-v21-latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''), url('../fonts/montserrat-v21-latin-500.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/montserrat-v21-latin-500.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/montserrat-v21-latin-500.woff') format('woff'),
+    /* Modern Browsers */ url('../fonts/montserrat-v21-latin-500.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/montserrat-v21-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/montserrat-v21-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''), url('../fonts/montserrat-v21-latin-600.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/montserrat-v21-latin-600.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/montserrat-v21-latin-600.woff') format('woff'),
+    /* Modern Browsers */ url('../fonts/montserrat-v21-latin-600.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/montserrat-v21-latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v21-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/montserrat-v21-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/montserrat-v21-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/montserrat-v21-latin-regular.woff') format('woff'),
+    /* Modern Browsers */ url('../fonts/montserrat-v21-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/montserrat-v21-latin-regular.svg#Montserrat')
+      format('svg'); /* Legacy iOS */
+}
+/* montserrat-800 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/montserrat-v21-latin-800.eot'); /* IE9 Compat Modes */
+  src: local(''), url('../fonts/montserrat-v21-latin-800.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/montserrat-v21-latin-800.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/montserrat-v21-latin-800.woff') format('woff'),
+    /* Modern Browsers */ url('../fonts/montserrat-v21-latin-800.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/montserrat-v21-latin-800.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/montserrat-v21-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''), url('../fonts/montserrat-v21-latin-700.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/montserrat-v21-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/montserrat-v21-latin-700.woff') format('woff'),
+    /* Modern Browsers */ url('../fonts/montserrat-v21-latin-700.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/montserrat-v21-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-900 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/montserrat-v21-latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''), url('../fonts/montserrat-v21-latin-900.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/montserrat-v21-latin-900.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/montserrat-v21-latin-900.woff') format('woff'),
+    /* Modern Browsers */ url('../fonts/montserrat-v21-latin-900.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/montserrat-v21-latin-900.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: $pearlAqua rgba(0, 0, 0, 0.3);
+}
+
+.custom_scrollbar_small::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.custom_scrollbar_small::-webkit-scrollbar-track {
+  background: inherit;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.custom_scrollbar_small::-webkit-scrollbar-thumb {
+  background-color: $pearlAqua;
+  border-radius: 8px;
+  border: $pearlAqua;
+}
+
+.custom_scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom_scrollbar::-webkit-scrollbar-corner {
+  background: inherit;
+}
+
+.custom_scrollbar::-webkit-scrollbar-track {
+  background: inherit;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.custom_scrollbar::-webkit-scrollbar-thumb {
+  background-color: $gray;
+  border-radius: 8px;
+  border: $goldenYellow;
+}
+
+.custom_scrollbar-webkit-scrollbar-corner {
+  background: inherit;
+}

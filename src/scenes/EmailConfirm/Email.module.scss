@@ -1,0 +1,52 @@
+@import '../../styles/variables';
+
+.container {
+  width: 500px;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 270px;
+  background-color: rgba(255, 255, 255, 0.61);
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgb(119, 119, 119);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: inherit;
+  display: flex;
+}
+
+.wrapper {
+  width: 110px;
+  height: 75px;
+}
+
+.login_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_textWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.scene_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f15b292f;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  height: 100px;
+}

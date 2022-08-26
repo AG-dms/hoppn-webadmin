@@ -1,0 +1,41 @@
+@import '../styles/variables';
+.app_container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  background-color: rgb(245, 245, 245);
+  flex: 1;
+  overflow: hidden;
+}
+.scene_container {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.header_logo {
+  width: 30px;
+  cursor: pointer;
+  display: flex;
+}
+
+.left_header {
+  display: flex;
+  align-items: center;
+}
+
+.right_header {
+  display: flex;
+  align-items: center;
+}
+.balance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

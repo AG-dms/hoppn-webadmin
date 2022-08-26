@@ -1,0 +1,93 @@
+@import '../../styles/variables';
+
+.login_container {
+  width: 350px;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 550px;
+  border: 3px solid $hoppnOrange;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signContainer {
+  flex: 1;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+}
+
+.header {
+  width: inherit;
+}
+
+.logo_wrapper {
+  width: 225px;
+  height: 100px;
+}
+
+.login_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login_header_textWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.login_header_title {
+  text-align: center;
+  width: 100%;
+  color: $darkCharcoal;
+  text-transform: lowercase;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.signIn {
+  text-align: center;
+  color: $darkCharcoal;
+}
+
+.input_wrapper {
+  height: 85px;
+}
+
+.form_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subTab {
+  padding: 5px;
+  & > .MuiTouchRipple-root {
+    font-size: 14px;
+    background-color: green;
+  }
+}
+
+.input_phone {
+  width: 100%;
+  input {
+    height: 56px;
+    width: 200px;
+    margin-left: 2px;
+    padding: 16.5px 14px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #b2b8c3;
+    font-size: 14px;
+    &:focus {
+      border-color: #9fc654;
+      border-width: 2px;
+    }
+  }
+  input: {
+    border-color: #9fc654;
+    border-width: 2px;
+  }
+}

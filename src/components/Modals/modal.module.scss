@@ -1,0 +1,89 @@
+@import '../../styles/variables';
+.balancemodal {
+  flex: 1;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 45px;
+  font-size: 18px;
+  border: 1px solid $lightgray;
+  border-radius: 50px;
+}
+
+.balancemodal {
+  outline: none;
+}
+
+.balancemodal:focus,
+.balancemodal:hover {
+  border-color: #000;
+}
+
+.errorBalanceModal,
+.errorBalanceModal:focus,
+.errorBalanceModal:hover {
+  border-color: red;
+}
+
+.currencyInputContainer {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.errorText {
+  color: red;
+  padding-left: 10px;
+}
+
+.input_wrapper {
+  height: 85px;
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  width: 100%;
+}
+
+.btnGroup {
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.input_phone {
+  width: 100%;
+  input {
+    height: 35px;
+    flex: 1;
+    margin-left: 2px;
+    padding: 16.5px 14px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #b2b8c3;
+    font-size: 14px;
+    &:focus {
+      border-color: #9fc654;
+      border-width: 2px;
+    }
+  }
+  input: {
+    border-color: #9fc654;
+    border-width: 2px;
+  }
+}
+
+.code_container {
+  display: flex;
+  margin-top: 15px;
+  width: 245px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

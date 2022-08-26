@@ -1,0 +1,99 @@
+@import '../../styles/variables';
+
+.table_container {
+  flex: 1;
+  height: inherit;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+}
+
+.form_container {
+  width: 450px;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 350px;
+  border: 3px solid $hoppnOrange;
+  border-radius: 5px;
+}
+.input_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 130px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.page_title {
+  text-align: center;
+}
+
+.create_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_title {
+  margin-bottom: 15px;
+}
+
+.super_admin_wrapper {
+  box-sizing: border-box;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.table_wrapper {
+  // background-color: #ffac271a;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  // height: inherit;
+}
+
+.pagination_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_group {
+  display: flex;
+  flex-direction: column;
+  // align-self: center;
+}
+
+.single_admin_btn > button {
+  margin: 10px;
+  width: 200px;
+  flex: 0.5;
+}
+.admin_info_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin_info_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin_info_block_item {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
